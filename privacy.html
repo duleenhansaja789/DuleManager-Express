@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy Policy | DuleManager Express</title><link rel="stylesheet" href="style.css"></head><body><main><nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="delete-account.html">Delete account</a></nav><h1>Privacy Policy</h1><p><a href="PrivacyPolicy.txt" download>Download TXT copy</a></p><pre>PRIVACY POLICY — DULEMANAGER EXPRESS
+Developer: W D Hansaja
+Last updated: 22 October 2026
+Support and privacy contact: dulemexpresshq@gmail.com
+
+
+1. ABOUT THIS POLICY
+DuleManager Express helps university and hostel students record expenses, plan allowances, manage savings goals and bills, and review shared costs. This policy explains the information used by the app and the choices available to you. W D Hansaja is the app&#x27;s developer. Contact dulemexpresshq@gmail.com with privacy questions or requests.
+
+2. INFORMATION YOU CHOOSE TO PROVIDE
+Budget records may include your allowance, income, expenses, categories, transaction dates, wallets, notes, savings goals, planned bills, repayments, favorite purchases, holiday plans and allowance schedules.
+Your optional profile may include your preferred name, profile picture, country, currency, university name, age, study year, degree duration, expected graduation date, and selected home and university locations. These optional details are not required to record expenses.
+Do not place bank passwords, card security codes, identity documents or other unnecessary sensitive information in expense notes or receipt images.
+
+3. GUEST MODE AND LOCAL STORAGE
+Guest records are stored in the app&#x27;s private storage on your Android device. Guest mode does not automatically create a cloud account. Removing app storage or uninstalling the app can remove records that have not been exported or synchronized.
+Sample-data mode uses a separate local demonstration account. Sample entries are not merged into your personal history or synchronized to Firebase.
+
+4. GOOGLE SIGN-IN AND CLOUD SYNCHRONIZATION
+If you choose Google sign-in, Firebase Authentication uses information supplied by Google, including an account identifier, name, email address and profile picture when available. We use this information to identify your app account and show your profile. The app does not receive your Google password and does not request access to Gmail, Google Drive files, contacts or your calendar.
+When you enable cloud synchronization or select Sync now, your personal records and supported profile details are stored in Cloud Firestore under your Firebase user identifier. This helps you restore synchronized information when signing in on another device. Google sign-in alone does not mean every local record has been uploaded; check the synchronization status.
+Cloud records are protected by account-based access rules and encrypted network connections. App-level cloud synchronization is not end-to-end encrypted. The Firebase project administrator and service provider may have authorized administrative access to stored data.
+If you connect an account after using guest mode, the app asks whether to merge the guest history or keep it separate. Custom profile photos selected from your device remain local; a Google profile picture link may be synchronized.
+
+5. MAPS AND OPTIONAL LOCATION PERMISSION
+The offline home-to-university overview uses bundled Natural Earth country outlines, your saved locations and a locally calculated straight-line distance, without loading map tiles. Outline processing and approximate country matching happen on your device. The profile country is used as a hint; saved coordinates determine where pins are drawn. Cross-country journeys can show more than one country. No locations are sent to Natural Earth. You may explicitly open an interactive overview showing both saved pins. You can also search for a place, move or zoom the selection map, and select a pin without granting device location permission. Map resources are loaded from the Leaflet CDN and map tiles are supplied by OpenStreetMap. These providers may receive your IP address, technical request information and the requested map area. Place searches use your Android device&#x27;s geocoding service and send the search text to that provider.
+If you tap Use my current location, the app requests foreground location permission to obtain a location fix and position the map. Approximate location is supported. No background location permission is requested. You can decline permission or revoke it in Android settings and continue selecting locations manually.
+Selected location labels and coordinates are saved only when you confirm a location. They can be included in your synchronized profile when cloud synchronization is enabled. The displayed home-to-university distance is a straight-line estimate, not a driving route or travel-time service.
+
+6. PHOTOS, RECEIPTS AND FILE ACCESS
+Android&#x27;s document picker gives the app access to files you select. The app may retain access permission for those selected files; it does not request unrestricted access to your photo library or storage.
+Receipt recognition uses the bundled Google ML Kit text-recognition SDK on your device. The app does not upload receipt images to an external AI service. Recognized text and expense details you save become part of your financial records and may be synchronized. Review recognized information before saving. Google&#x27;s SDKs may process technical diagnostic information under their own terms.
+
+7. NOTIFICATIONS, WIDGETS, ACHIEVEMENTS AND DEVICE AUTHENTICATION
+Notifications are optional. You can control reminder timing, quiet hours, suggestion frequency, snoozing and low-budget alerts. Android permission must also be enabled. Amounts are hidden in notifications and home-screen widgets by default. If you choose to display amounts, people who can view your screen may see them.
+Private achievements and personal XP are calculated on your device from your records, separately for each currency. Confirming a daily review saves its date and currency as a zero-value review record. Reviews can be included in enabled cloud synchronization and file backups. They do not create expenses or share your progress with roommates or a public leaderboard. Editing or deleting records can change the displayed badges. Celebration history, animation and sound preferences stay in the current account on this device. Brief bundled sound effects accompany selected confirmations and achievements when enabled, respecting silent mode, Do Not Disturb and system volume. They use no microphone or external audio service.
+Optional app lock uses Android&#x27;s device authentication. The app does not receive your fingerprint, biometric template or device PIN. Widget actions open the app and do not silently create transactions.
+
+8. LIVE ROOMMATE GROUPS, SHARED BILLS AND SEMESTER ARCHIVES
+If you create or join a live group, Firebase stores its name, currency, membership identifiers and display names, targeted invitations, shared purchases and corrections, exact spending shares, recorded repayments and their confirmed, cancelled or disputed status. Cancellation and dispute reasons you enter become part of the shared history. A targeted invitation stores the invited Google email address and inviter&#x27;s identifier. Invitations appear in the app; the app does not automatically send invitation emails.
+An invited account may review group information and membership before accepting. Only current members can read the group&#x27;s expense history and shared bill schedules. Your private expenses, student profile, selected home and university locations and personal goals are not shared through this feature.
+Equal, custom and percentage splits are stored as exact currency shares. Percentage rounding preserves the purchase total. Group owners manage membership, invitations, ownership and semester archiving. Leaving or removal ends future access, but information already seen, saved or exported cannot be recalled. Shared history remains available to remaining members. Corrections and closed repayment requests retain their history and reasons.
+Shared bill schedules contain a title, expected amount, currency, first due date, repeat interval, participants, creator identifier, enabled state and update time. They are plans, not evidence of payment. An actual paid occurrence is recorded only when a member reviews and saves it. A bill occurrence uses a common group identifier to prevent duplicate recording of that occurrence.
+The device saves a small account-specific cache of bill due dates and titles from groups you open. Optional daily notifications may use this cache for up to seven days after refresh. The app does not fetch shared schedules in the background or send server push notifications for group changes. Other members&#x27; changes may not reach saved reminders until you reconnect and reopen the group. Notification permission, your settings and Android delivery behavior apply. Removing access or archiving a group clears its reminder cache when the app learns of the change.
+Semester archiving makes the group read-only and pauses its bill reminders. It does not delete group data, settle balances or remove membership. Archived event history loads in pages when requested, and a current owner may reopen the group. A sole remaining owner may explicitly delete the group, its bill schedules, invitations and event history. An interrupted deletion can require reconnection and a retry.
+Importing a shared purchase into your private budget requires your confirmation. Updated shared purchases do not silently overwrite your private entries. The app records repayments and member acknowledgments; it does not transfer money, access bank accounts, verify transfers or arbitrate disputes.
+
+9. REPORTS AND BACKUPS
+Excel reports, shared-history CSV exports and ordinary JSON backups are not password protected by the app. Shared CSV reports may contain member display names, exact spending shares, purchase history and repayment/dispute reasons. They are reports rather than a full restorable group backup. Preparing a complete shared report downloads the requested group history, with a 20,000-event limit. You choose where to save them and whom to share them with. Their contents may be accessible to the storage provider or anyone with access to those files.
+Optional password-protected backups use password-derived encryption with authenticated AES encryption. The app does not save or upload the backup password. A forgotten password cannot be recovered by the developer. Keep your password and backup safe. Restoring a backup requires your review and confirmation and adds missing record identifiers rather than silently replacing existing records.
+
+10. WHY INFORMATION IS USED
+The app uses your information to calculate balances and reports, display your profile, provide explanations and reminders based on your records, synchronize and restore your account, and operate shared groups you choose to use. Suggestions and forecasts are estimates from entered records. Spending questions are not sent to an external generative AI service.
+The current build contains no advertising SDK or Firebase Analytics integration. We do not sell your personal information or use Google account data for personalized advertising.
+
+11. SERVICE PROVIDERS AND GOOGLE USER DATA
+The app uses Google/Firebase services for authentication and cloud storage and Google ML Kit for receipt recognition. Map and geocoding services are described above. These providers may process account, device, network and diagnostic information according to their policies. Service infrastructure may process information outside your country.
+DuleManager Express&#x27;s use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy, including its Limited Use requirements.
+If you visit public policy pages or download app releases hosted on GitHub, GitHub may process your IP address, browser/device details and request information under its own privacy statement. App financial records are not uploaded to the policy website or public release repository. Do not post private financial or identity information in public GitHub issues.
+GitHub privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+Google privacy policy: https://policies.google.com/privacy
+Firebase privacy information: https://firebase.google.com/support/privacy
+Google API Services User Data Policy: https://developers.google.com/terms/api-services-user-data-policy
+OpenStreetMap Foundation privacy policy: https://osmfoundation.org/wiki/Privacy_Policy
+
+12. YOUR CONTROLS AND DATA RETENTION
+You can edit records, recover recently deleted records, remove optional student details and selected locations, change permissions, disable automatic synchronization, export your data, and leave shared groups. Deleted private records may remain as recovery and synchronization markers until the app account&#x27;s data is deleted.
+Signing out does not delete saved app history. To delete your Google-linked app account, first leave shared groups, transferring ownership or deleting a group if you are its sole remaining owner. Then use Settings, Account &amp; backup, Delete Google account and cloud data. This deletes the app account and its personal records when the operation completes; it does not delete your Google account. A connection and recent authentication may be required.
+Shared group records and bill schedules retained by other members, separately exported files, other people&#x27;s copies, and a separate guest notebook are not deleted through personal account deletion. The account&#x27;s local reminder metadata is removed when its local profile is cleared during completed account deletion. Guest data can be removed through Android&#x27;s app storage controls. You can also contact dulemexpresshq@gmail.com for assistance with a deletion or access request; identity verification may be needed.
+
+13. SECURITY AND AVAILABILITY
+We use Android&#x27;s app storage protections, account access rules, encrypted network connections and optional device authentication. No storage or transmission method can be guaranteed completely secure. Protect your device, Google account, backup passwords and exported files.
+Cloud synchronization can be interrupted by connectivity, service availability or free-plan quotas. Local records may remain pending synchronization. Only successfully synchronized data can be recovered from the cloud.
+
+14. STUDENT AND FAMILY PRIVACY
+The app is intended for university and hostel students. Age and precise location are optional. If local law requires a parent or guardian&#x27;s permission, obtain it before providing information or using shared features. If you believe information was provided without appropriate permission, contact dulemexpresshq@gmail.com.
+
+15. IMPORTS, BALANCE CHECKS AND SUPPORT DRAFTS
+CSV and XLSX expense files are processed on your device. Previewing does not import records. Confirmed records may synchronize when you enable cloud sync. Wallet checks and explicit wallet corrections are stored as records; a correction does not count as monthly income or spending. Backup reminders use local timestamps and optional notifications.
+The support screen prepares a draft for dulemexpresshq@gmail.com and does not automatically send it. You may choose to include the app version, Android version, device manufacturer/model and app language. The app does not automatically attach expense records, selected locations, email addresses or account identifiers. Review your message before sending it through your email application.
+
+16. CHANGES AND CONTACT
+We may update this policy as the app changes. The latest version should be available in Settings and at the public policy address. Material changes to data handling should be communicated through the app or another appropriate notice before they take effect where required.
+Developer: W D Hansaja
+Privacy and support email: dulemexpresshq@gmail.com
+</pre><footer>W D Hansaja · <a href="mailto:dulemexpresshq@gmail.com">dulemexpresshq@gmail.com</a></footer></main></body></html>
