@@ -1,6 +1,6 @@
 TERMS OF SERVICE — DULEMANAGER EXPRESS
 Developer: W D Hansaja
-Last updated: 22 October 2026
+Last updated: 27 October 2026
 Support contact: dulemexpresshq@gmail.com
 
 
@@ -63,3 +63,11 @@ Support email: dulemexpresshq@gmail.com
 
 PERSONAL ACHIEVEMENTS AND SOUND FEEDBACK
 Badges, review streaks and personal XP are motivational indicators based on entered records, not verified financial outcomes, Google Play achievements, cash, credit or redeemable rewards. Reviews can be completed on zero-spend days. Progress is recalculated after record edits, deletions and savings withdrawals. Cloud restoration depends on synchronizing the underlying records. Device sound settings, Do Not Disturb and your app preferences affect optional feedback.
+
+OPTIONAL MONTHLY EMAIL REPORTS
+If the publisher has activated its sender service, a verified Google user can explicitly enable automatic monthly reports in Settings. Enabling also enables automatic cloud synchronization. Beginning next month, the service aims to send the previous month's Excel report after 08:00 on the first day in the saved time zone, with limited catch-up attempts during the first three days. The verified Google account email is the destination. The report includes cloud-synchronized private records at preparation time, not unsynchronized entries or later edits. Each currency stays separate; reports do not verify bank balances or payments.
+The supplied free setup uses the publisher's private Google Apps Script and Google MailApp for report creation and delivery, as described in the Privacy Policy. Provider quotas limit the number of recipients and processing time; this feature is not unlimited. Attachments are not password protected. Keep your Google mailbox secure and avoid forwarding financial reports to people who should not see them. No access to read your Gmail or other Google files is requested.
+Delivery is subject to scheduling, connection, quota, spam-filter and email-provider limitations. Exact timing and receipt are not guaranteed; do not rely on email as your only backup. A daily safety limit can defer or prevent reports, and ambiguous delivery attempts require publisher review rather than automatic resending. Stop future reports through Settings > Automatic monthly email reports > Stop monthly emails while online, or contact support. Signing out, uninstalling or disabling sync alone does not unsubscribe. A report already being sent can still arrive after withdrawal or deletion, and delivered copies cannot be recalled.
+
+OPTIONAL BANNER ADVERTISING
+Google banner ads can be enabled or disabled in Settings > Ads & privacy. This release is configured with the developer's AdMob identifiers and may generate advertising revenue where Google permits serving. Development builds use test banner units, which do not earn advertising revenue. Configured IDs do not guarantee approval, ad availability or income. Banners are available only after an adult confirmation and applicable Google privacy checks; known minor profiles are excluded. No ad interaction is required to record expenses, export reports or use shared groups. Do not encourage others to click ads or click production ads to generate revenue. Ad availability, content, measurement and provider data handling are subject to Google's policies and the Privacy Policy. An ad is not a developer endorsement or a promise of financial benefit. Leaving the app may be necessary to open an advertiser's link. Data/network charges from your own provider may apply.
