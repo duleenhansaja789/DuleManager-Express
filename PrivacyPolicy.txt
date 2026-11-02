@@ -1,11 +1,11 @@
 PRIVACY POLICY — DULEMANAGER EXPRESS
 Developer: W D Hansaja
-Last updated: 30 October 2026
+Last updated: 2 November 2026
 Support and privacy contact: dulemexpresshq@gmail.com
 
 
 1. ABOUT THIS POLICY
-DuleManager Express helps university and hostel students record expenses, plan allowances, manage savings goals and bills, and review shared costs. This policy explains the information used by the app and the choices available to you. W D Hansaja is the app's developer. Contact dulemexpresshq@gmail.com with privacy questions or requests.
+DuleManager Express helps students, employees, freelancers, households and other individuals record expenses, organize received and expected income, plan spending, manage savings goals and bills, and review explicitly shared costs. This policy explains the information used by the app and the choices available to you. W D Hansaja is the app's developer. Contact dulemexpresshq@gmail.com with privacy questions or requests.
 
 2. INFORMATION YOU CHOOSE TO PROVIDE
 Budget records may include your allowance, income, expenses, categories, transaction dates, wallets, notes, savings goals, planned bills, repayments, favorite purchases, holiday plans and allowance schedules.
@@ -108,3 +108,12 @@ During the last five calendar days of a month, you can save an expected allowanc
 The monthly savings pot is a bookkeeping allocation, separate for each currency, not a bank account. Optional automatic month-end organisation starts with the month in which you enable it and runs on the next app open or a permitted scheduled check after month end. Only unreserved recorded budget is moved, either to the pot or to the following month's budget according to your selected destination. Using the pot releases existing allocated budget; no actual bank payment is made. Later expense corrections, missing records or conflicting offline edits may require review. Device preferences for timing, motion and sounds are stored locally; financial allocation records follow the app's account and cloud-sync choices.
 
 Appearance preferences include a local day/night theme schedule, manual theme override and built-in font-family choice. Core labels are available in selected languages; detailed help and legal text may remain in English. These features do not download fonts or send text to a translation service. When you request Share monthly Excel, the app prepares a temporary report in its private cache and gives the sharing app a read-only file grant. A cached copy may remain until a later share, Android cache cleanup or app removal. The recipient or chosen app can retain a copy outside DuleManager Express.
+
+EVERYDAY FINANCE PROFILES AND OPTIONAL PLANNING TOOLS
+First setup requires choosing Student, Employee, Freelancer / Self-employed, Family / Household, or Personal / General. This is a usage preference, not identity verification. No official identity document is requested. Changing it preserves existing records. Account type, budget-period preferences, enabled optional tools and Home card choices are stored with your profile and can synchronize with your account when sync is enabled. Home money-amount hiding is a device preference; it does not hide amounts in opened details, exports or delivered emails.
+Optional records can include custom categories, tags, income-source or client names, project names, expected payment dates and amounts, spending limits, and weekly, monthly or yearly repeating bill schedules. These use the same private on-device storage, optional Firestore synchronization, backup, editing and account-deletion controls as other financial records. Add only necessary information about other people or clients and avoid confidential material you do not have permission to store. The app does not contact clients, send invoices, access employer accounts or share your private projects with group members.
+Expected payments are forecasts until you confirm receipt. Spending limits and weekly reviews are calculated locally from your records. Exported period and weekly CSV files can include source, tag and project details and distinguish actual and forecast record types. These files are not password protected; protect them when sharing. Optional bill and expected-payment notifications use saved local records, Android notification permission, your reminder settings and quiet hours. They are off by default and do not guarantee delivery or live payment status.
+Family / Household uses the existing member-authorized shared-space system. Choosing that account type does not invite anyone, create a shared account or share personal records automatically. Shared spaces retain their existing owner/member permissions, invitation acceptance and history controls. No new bank connection, payment processor, paid AI service, device permission or third-party recipient is introduced by these tools.
+
+PURCHASE PAUSE LIST AND LOCAL PATTERN CHECKS
+Purchase pause-list entries may contain an optional item name, estimated amount, category, personal note and review date. These are private planning records using the same local storage, optional sync, backup and deletion controls. The recurring-payment detector compares saved expense descriptions, amounts and dates locally; it does not send these records to an AI service or verify real subscriptions. No bill is created until you review and save it.
